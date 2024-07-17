@@ -1,5 +1,5 @@
 # coding=utf-8
-import socket  # socket模块
+import socket 
 import json
 import random
 import numpy as np
