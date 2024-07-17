@@ -246,7 +246,7 @@ while episode <= EPISODES:
                 pass
         data = bytes.decode(data)
         if data == "over":
-            agent.save("/home/doi5/Autonomous-Driving/decision-making-CarND/CarND-test/src/train/episode" + str(
+            agent.save("/home/rishav/Autonomous-Driving/decision-making-CarND/CarND-test/src/train/episode" + str(
                 episode) + ".h5")
             print("weight saved")
             print("episode: {}, epsilon: {}".format(episode, agent.epsilon))
